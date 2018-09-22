@@ -1,0 +1,29 @@
+#ques {
+    list-style: none;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+#ques li{
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+
+#ques .img {
+    width: 70px;
+    float: left;
+}
+
+#ques .que_group {
+    float: right;
+    width: 90%;
+    padding:0 10px;
+}
+
+.auth_time{
+    text-align: right;
+}
+.auth_time .author{
+    padding-right: 10px;
+}

@@ -1,0 +1,27 @@
+测试页面
+
+<span>11</span>
+<span>22</span>
+<span>33</span>
+
+<script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+<script>
+    $(function () {
+
+        $('span').each(function (inx, ths) {
+            console.log(inx, ths.innerHTML)
+        });
+
+        $.each([1, 2, 3], function (inx, val) {
+            console.log(inx, val)
+        })
+
+    })
+
+</script>
+
+
+
+
+
+
