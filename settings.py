@@ -5,7 +5,7 @@ __author__ = "ipigzhu"
 import datetime, os
 
 class Config(object):
-    DEBUG = True
+    DEBUG = False
     HOSTNAME = '127.0.0.1'
     PORT = '3306'
     DATABASE = 'flask'
