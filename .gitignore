@@ -1,4 +1,4 @@
 *.py[cod]
 *.egg-info
-img/static
+project/static
 __pycache__
