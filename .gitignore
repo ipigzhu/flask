@@ -1,0 +1,4 @@
+*.py[cod]
+*.egg-info
+img/static
+__pycache__
